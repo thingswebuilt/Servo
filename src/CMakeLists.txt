@@ -1,4 +1,5 @@
-add_library(Servo INTERFACE)
+add_library(Servo INTERFACE
+        ../examples/sweep/main.cpp)
 
 target_sources(Servo INTERFACE
   ${CMAKE_CURRENT_LIST_DIR}/Servo.cpp
